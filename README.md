@@ -18,11 +18,12 @@ This is a simple Python application to play a .mp3 file when a letter key is pre
 
 *Unix base system instructions*
 
-1. Run the application for Unix base operative systems with `sudo python keyboard_sounds/`.
-2. Install dependencies with `pip3 install -r requirements.txt`.
+1. Install dependencies with `pip3 install -r requirements.txt`.
+2. Run the application for Unix base operative systems with `sudo python keyboard_sounds/`.
 
 *Windows instructions*
-
+1. Install dependencies with `pip3 install -r windows_requirements.txt`.
+2. Run the application for Unix base operative systems with `sudo python keyboard_sounds/`.
 
 *Stop the application*
 
