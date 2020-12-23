@@ -7,19 +7,22 @@ This is a simple Python application to play a .mp3 file when a letter key is pre
 1. Download the repository.
 2. Open a new terminal.
 3. (OPTIONAL) Create a Python virtual environment with [venv](https://docs.python.org/3/tutorial/venv.html) or [pyenv](https://pypi.org/project/pyvenv/) and activate.
-4. Install dependencies with `pip3 install -r requirements.txt`.
 
 
 ## Usage
 
-*Add .mp3 files*
+*Add audio files (tested on .mp3 files)*
 
 1. Add the .mp3 files you want to use in `keyboard_sounds/media/sounds` folder.
-2. Rename the file as the letter desired, example: `run_to_the_hills.mp3` to `a.mp3`.
+2. Open `keyboard_sounds/scripts/config/sounds_list.py` and make sure the audio file name corresponds to the desired letter. You can check the included examples.
 
-*Start the application*
+*Unix base system instructions*
 
-Run the application for Unix base operative systems with `sudo python keyboard_sounds/`.
+1. Run the application for Unix base operative systems with `sudo python keyboard_sounds/`.
+2. Install dependencies with `pip3 install -r requirements.txt`.
+
+*Windows instructions*
+
 
 *Stop the application*
 
