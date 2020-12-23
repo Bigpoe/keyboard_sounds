@@ -82,3 +82,4 @@ def read_inputs():
         if keyboard.is_pressed('z'):
             print('Y key pressed!')
             play_sound.z_sound()
+ 
