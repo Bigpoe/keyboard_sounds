@@ -1,4 +1,5 @@
 /venv
+/venv-env
 **/__pycache__/
 keyboard_sounds/media/sounds
 **.DS_Store
