@@ -1,6 +1,7 @@
 /venv
 /venv-env
+keyboard_sounds/scripts/config/sounds_list.py
 **/__pycache__/
-keyboard_sounds/media/sounds
 **.DS_Store
+**.wav
 *.vscode
